@@ -10,8 +10,8 @@ class MyABC(metaclass=ABCMeta):
     def test(self, maxbytes=-1):
         pass
 
-abcObj = MyABC()  # => TypeError: Can't instantiate abstract class MyABC with abstract methods test
-print(abcObj)
+# abcObj = MyABC()  # => TypeError: Can't instantiate abstract class MyABC with abstract methods test
+# print(abcObj)
 
 '''
 2.property的使用
